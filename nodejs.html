@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HOUSE RENT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="" class="w3-bar-item w3-button"><b>HOUSE RENT</b> </a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    <a href="home.php" class="w3-bar-item w3-button"><b>Home</b></a>
+      <a href="about.php" class="w3-bar-item w3-button"><b>About</b></a>
+      <a href="register.php" class="w3-bar-item w3-button"><b>Register</b></a>
+<a href="portfolio.php" class="w3-bar-item w3-button"><b>Portfolio</b></a>
+<a href="agent.html" class="w3-bar-item w3-button"><b>Agent</b></a>
+<a href="nodejs.html" class="w3-bar-item w3-button"><b>Properties</b></a>
+<a href="contact.php" class="w3-bar-item w3-button"><b>Contact</b></a>
+    </div>
+  </div>
+</div><br>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Crud operation in javascript</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvI6e8beOvVmMBBHBzSt3A6aoK4YtS3UPUw&usqp=CAU');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+</style>
+<table>
+<tr>
+<td>
+<!--HTML form for crud operation-->
+<form autocomplete="off" onsubmit="onFormSubmit()">
+<div>
+<label for="fullName"> Name</label>
+<input type="text" name="Name" id="Name" placeholder="Name">
+</div>
+<div>
+<label for="Last name">Address</label>
+<input type="text" name="password" id="password" placeholder="Address">
+</div>
+<div>
+<label for="leave date">Status</label>
+<input type="text" name="emailid" id="emailid" placeholder="Status">
+</div>
+<div>
+<label for="dept">Vacancy</label>
+<input type="text" name="phonenumber" id="phonenumber"
+placeholder="Vacancy">
+</div>
+<div class="form_action--button">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</div>
+</form>
+</td>
+<td>
+<table class="list" id="playerlist">
+<thead>
+
+<tr>
+ <h2 style="color:brown">PROPERTIES</h2>
+<th>Name</th>
+<th>Address</th>
+<th>Status</th>
+<th>Vacancy</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
